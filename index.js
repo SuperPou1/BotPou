@@ -8,14 +8,14 @@ const { send } = require('process');
 client.login('')//your's bot token here
 client.on('ready', () => {
    console.log('The Bot has Started!');
-   client.user.setActivity("!!help", {
+   client.user.setActivity("??help", {
        type: "WATCHING",
-       name: "!!help"
+       name: "??help"
      });
    });
 
 client.on('message', async message =>{
-   let prefix = '!!'//your preffered prefix here
+   let prefix = '??'//your preffered prefix here
    if (!message.content.startsWith(prefix) || message.author.bot) return;
    const args = message.content.slice(prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
@@ -64,7 +64,7 @@ client.on('message', async message =>{
         //create embed message
         let embed = new discord.MessageEmbed()
         .setTitle('BotPou Commands')
-        .addField('"!!"','prefix of this bot. Use it on start of the command')
+        .addField('"??"','prefix of this bot. Use it on start of the command')
         .addField('help','shows this')
         .addField('cat', 'shows a cat')
         .addField('cats', 'shows cats')
