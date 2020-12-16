@@ -7,4 +7,4 @@ You can also optionally install [Visual studio code](https://code.visualstudio.c
 # How to run
 Simply run the file  "run.bat" or if you're using visual studio code open a new terminal and type "node index.js"
 # Credits
-[Reyansh_Khobragade](https://github.com/Reyansh-Khobragade) (installDependecies.bat, installDependecies.sh, run.bat, run.sh)
+[Reyansh_Khobragade](https://github.com/Reyansh-Khobragade) (installDependencies.bat, installDependencies.sh, run.bat, run.sh)
